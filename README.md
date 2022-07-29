@@ -19,3 +19,5 @@ of individual chunks.
 The important part of this implementation is the custom FlowMultiplartFormDataStreamProvider.cs that handles the actual streaming 
 of files to disk. When it gets to the file part of the HTTP Body it retrieves the FlowMetaData from the previous content and uses
 that data to save the chunk to the appropriate file.
+
++ https://github.com/flowjs/ng-flow/issues/41
